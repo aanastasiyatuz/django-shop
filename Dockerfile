@@ -18,7 +18,7 @@ ENV DB_PASSWORD=FTZw4N9Q7Sm3SPElfY8L
 ENV DB_HOST=containers-us-west-96.railway.app
 ENV DB_PORT=7833
 ENV DEBUG=1
-ENV ALLOWED_HOSTS=127.0.0.1,django-shop-production.up.railway.app
+ENV ALLOWED_HOSTS=0.0.0.0,127.0.0.1,django-shop-production.up.railway.app
 ENV PORT=8000
 
 RUN python3 manage.py migrate
